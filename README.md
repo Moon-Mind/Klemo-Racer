@@ -1,17 +1,9 @@
-# Truck Town
+# Klemo-Racer
 
-This is a demo implementing different types of trucks of
-varying complexity using vehicle physics.
-
-Do not be surprised if everything is bouncy and glitchy,
-Godot's physics system is not polished and will likely be
-reworked in the future.
 
 Language: GDScript
 
-Renderer: GLES 2
-
-Check out this demo on the asset library: https://godotengine.org/asset-library/asset/524
+Renderer: GLES 3
 
 ## How does it work?
 
