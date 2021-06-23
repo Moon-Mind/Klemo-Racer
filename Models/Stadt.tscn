@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Models/Straße.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Models/Stadt/roteshaus.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Models/Stadt/latterne.tscn" type="PackedScene" id=3]
+
+[node name="Strasse" type="Spatial"]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+
+[node name="street" parent="." instance=ExtResource( 1 )]
+transform = Transform( 30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0 )
+
+[node name="roteshaus" parent="." instance=ExtResource( 2 )]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, -0.840461, 0.11459, 16.1923 )
+
+[node name="roteshaus2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 6.63864, 0.11459, 16.1923 )
+
+[node name="roteshaus3" parent="." instance=ExtResource( 2 )]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 16.448, 0.11459, 16.1923 )
+
+[node name="latterne" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 4.36439, 0.0906055, 14.0708 )
+
+[node name="latterne2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 6.76359, 0.0906055, 9.3549 )
+
+[node name="latterne7" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, -1.88451, 0.0906055, 9.3549 )
+
+[node name="latterne8" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 1.24138, 0.0906055, 9.3549 )
+
+[node name="latterne3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 11.1087, 0.0906055, 9.3549 )
+
+[node name="latterne4" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 13.2068, 0.0906055, 9.3549 )
+
+[node name="latterne5" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 16.79, 0.0906055, 9.3549 )
+
+[node name="latterne6" parent="." instance=ExtResource( 3 )]
+transform = Transform( 20, 0, 0, 0, 20, 0, 0, 0, 20, 19.9159, 0.0906055, 9.3549 )
