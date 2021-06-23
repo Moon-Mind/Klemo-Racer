@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Menu.gd" type="Script" id=1]
+[ext_resource path="res://Images/Screenshot 2021-06-02 092627.png" type="Texture" id=2]
+[ext_resource path="res://test.gd" type="Script" id=3]
+
+[sub_resource type="MeshTexture" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.49835
+margin_top = 4.49493
+margin_right = 1.49829
+margin_bottom = 4.49493
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="test" type="Sprite" parent="."]
+show_behind_parent = true
+position = Vector2( 519.841, 304.716 )
+scale = Vector2( 0.542819, 0.57069 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="SandyIsland" type="Button" parent="."]
+margin_left = 69.9638
+margin_top = 118.201
+margin_right = 300.964
+margin_bottom = 261.201
+text = "Sandyisland"
+icon = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="SandyIsland" to="." method="_on_SandyIsland_pressed"]
